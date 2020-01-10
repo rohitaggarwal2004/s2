@@ -1,4 +1,4 @@
-FROM java:8
+FROM 3.6.3-jdk-8-slim
 EXPOSE 8091
 RUN pwd
 RUN sudo apt-get install maven
